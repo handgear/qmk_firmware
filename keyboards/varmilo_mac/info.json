@@ -3,19 +3,6 @@
     "keyboard_name": "varmilo_mac",
     "maintainer": "Luke Kwon",
     "bootloader": "stm32duino",
-    "diode_direction": "COL2ROW",
-    "features": {
-        "bootmagic": true,
-        "command": false,
-        "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
-    },
-    "matrix_pins": {
-        "cols": ["C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2"],
-        "rows": ["D1", "D1", "D1", "D1", "D1", "D1"]
-    },
     "processor": "STM32F103",
     "url": "",
     "usb": {

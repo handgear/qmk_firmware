@@ -7,14 +7,14 @@
 
 /* key matrix size */
 #define MATRIX_ROWS 6
-#define MATRIX_COLS 22
+#define MATRIX_COLS 24
 
-#define MATRIX_ROW_PINS { B13, B14, B15, A8, A9, A3, A10, A1, A2, A15, A0 }
-#define MATRIX_COL_PINS { B11, B10, B1, B0, A7, A6, A5, A4 }
+// #define MATRIX_ROW_PINS { B11, B10, B1, B0, A7, A6 }
+// #define MATRIX_COL_PINS { B13, B14, B15, A8, A9, A3, A10, A1, A2, A15, A0, A5, A4 }
 
-#define NUM_LOCK_LED_PIN B5
-#define SCROLL_LOCK_LED_PIN B4
-#define CAPS_LOCK_LED_PIN B3
+#define NUM_LOCK_LED_PIN B9
+// #define SCROLL_LOCK_LED_PIN B4 // I2C
+// #define CAPS_LOCK_LED_PIN B3 // I2C
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION ROW2COL

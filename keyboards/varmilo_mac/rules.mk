@@ -1,8 +1,12 @@
 # MCU name
-MCU = STM32F103
+# MCU = STM32F103
+MCU = STM32F401
 
 # Bootloader selection
-BOOTLOADER = stm32duino
+# BOOTLOADER = stm32duino
+# BOARD = GENERIC_STM32_F401XC
+BOARD = BLACKPILL_STM32_F401
+BOOTLOADER = stm32-dfu
 
 # Enter lower-power sleep mode when on the ChibiOS idle thread
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
