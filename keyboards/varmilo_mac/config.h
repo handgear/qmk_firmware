@@ -12,9 +12,40 @@
 // #define MATRIX_ROW_PINS { B11, B10, B1, B0, A7, A6 }
 // #define MATRIX_COL_PINS { B13, B14, B15, A8, A9, A3, A10, A1, A2, A15, A0, A5, A4 }
 
-#define NUM_LOCK_LED_PIN B9
-// #define SCROLL_LOCK_LED_PIN B4 // I2C
-// #define CAPS_LOCK_LED_PIN B3 // I2C
+
+// ROW drive pins
+#define ROW_PIN_0 B0
+#define ROW_PIN_1 A1
+#define ROW_PIN_2 B1
+#define ROW_PIN_3 B3
+#define ROW_PIN_4 B5
+#define ROW_PIN_5 B4   
+
+// COL direct input pins
+#define COL_PIN_16 A0
+#define COL_PIN_17 A4
+#define COL_PIN_18 A2	
+#define COL_PIN_19 A3	
+#define COL_PIN_20 A5	
+#define COL_PIN_21 A6	
+#define COL_PIN_22 A7	
+
+// lock indication pins
+#define NUM_LOCK_LED_PIN B14
+#define CAPS_LOCK_LED_PIN B13
+#define SCROLL_LOCK_LED_PIN B12 
+#define LED_PIN_ON_STATE 0
+
+#define TEST_LED_PIN C13
+
+
+/* I2C related */
+#define I2C1_SCL_PIN B6
+#define I2C1_SDA_PIN B7
+#define I2C1_SCL_PAL_MODE 4
+#define I2C1_SDA_PAL_MODE 4
+
+
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION ROW2COL
